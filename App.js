@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hi</Text>
       <Text>{outputText}</Text>
-      <Button title="Click Once" onPress= {() => setOutputText ("The Button Changed Text!")} />
+      <Button title="Home" onPress= {() => setOutputText ("The Button Changed Text!")}/>
       <StatusBar style="auto" />
     </View>
   );
